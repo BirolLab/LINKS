@@ -1,9 +1,9 @@
-[![Release](https://img.shields.io/github/release/bcgsc/LINKS.svg)](https://github.com/bcgsc/LINKS/releases)
-[![Downloads](https://img.shields.io/github/downloads/bcgsc/LINKS/total?logo=github)](https://github.com/bcgsc/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)
+[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)
+[![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)
 [![Conda](https://img.shields.io/conda/dn/bioconda/links?label=Conda)](https://anaconda.org/bioconda/LINKS)
-[![Issues](https://img.shields.io/github/issues/bcgsc/LINKS.svg)](https://github.com/bcgsc/LINKS/issues)
+[![Issues](https://img.shields.io/github/issues/birollab/LINKS.svg)](https://github.com/birollab/LINKS/issues)
 [![link](https://img.shields.io/badge/LINKS-manuscript-brightgreen)](https://gigascience.biomedcentral.com/articles/10.1186/s13742-015-0076-3)
-Thank you for your [![Stars](https://img.shields.io/github/stars/bcgsc/LINKS.svg)](https://github.com/bcgsc/LINKS/stargazers)
+Thank you for your [![Stars](https://img.shields.io/github/stars/birollab/LINKS.svg)](https://github.com/birollab/LINKS/stargazers)
 
 ![Logo](https://github.com/warrenlr/links/blob/master/links-logo.png)
 
@@ -68,7 +68,7 @@ conda install -c "bioconda/label/cf201901" links
 #### Installing LINKS from the source code
 
 ```
-git clone --recursive https://github.com/bcgsc/LINKS.git
+git clone --recursive https://github.com/birollab/LINKS.git
 cd LINKS
 ```
 
@@ -252,7 +252,7 @@ www.bcgsc.ca/bioinfo/software/links
 ### Citing LINKS <a name=cite></a>
 ------------
 
-Thank you for your [![Stars](https://img.shields.io/github/stars/bcgsc/LINKS.svg)](https://github.com/bcgsc/LINKS/stargazers) and for using, developing and promoting this free software!
+Thank you for your [![Stars](https://img.shields.io/github/stars/birollab/LINKS.svg)](https://github.com/birollab/LINKS/stargazers) and for using, developing and promoting this free software!
 
 LINKS: Scalable, alignment-free scaffolding of draft genomes with long reads.
 Warren RL, Yang C, Vandervalk BP, Behsaz B, Lagman A, Jones SJ, Birol I.
@@ -270,7 +270,7 @@ Rene Warren, Yaman Malkoc, T. Murathan Goktas
 
 SWIG/BloomFilter.pm: Sarah Yeo, Justin Chu
 
-https://github.com/bcgsc/bloomfilter: Justin Chu, Ben Vandervalk, Hamid Mohamadi (ntHash), Sarah Yeo
+https://github.com/birollab/bloomfilter: Justin Chu, Ben Vandervalk, Hamid Mohamadi (ntHash), Sarah Yeo
 
 
 ### Command and options <a name=options></a>
