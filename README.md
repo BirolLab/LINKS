@@ -245,8 +245,7 @@ Minor fixes: IUPAC codes are now preserved
 ### Documentation <a name=docs></a>
 -------------
 
-Refer to the LINKS-readme.txt/LINKS-readme.pdf file on how to run LINKS and the LINKS web site for information about the software and its performance 
-www.bcgsc.ca/bioinfo/software/links
+Refer to the LINKS-readme.txt/LINKS-readme.pdf file on how to run LINKS 
 
 
 ### Citing LINKS <a name=cite></a>
