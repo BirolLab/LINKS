@@ -2,7 +2,7 @@
 
 #AUTHOR
 #   Rene Warren
-#   rwarren at bcgsc.ca
+#   rwarren at bccrc.ca
 
 #NAME
 #LINKS: Long Interval Nucleotide K-mer Scaffolder 
@@ -12,7 +12,7 @@
 #DOCUMENTATION
 #   LINKS-readme.txt distributed with this software @ www.bcgsc.ca
 #   http://www.bcgsc.ca/platform/bioinfo/software/links
-#   We hope this code is useful to you -- Please send comments & suggestions to rwarren * bcgsc.ca
+#   We hope this code is useful to you -- Please send comments & suggestions to rwarren * bccrc.ca
 #   If you use LINKS, the LINKS code or ideas, please cite our work
 
 #LICENSE
@@ -30,7 +30,7 @@ getopts('f:s:d:k:e:l:a:v:b:t:p:o:r:x:m:z:');
 my ($bf_file,$base_name,$distances,$k,$insert_stdev,$min_links,$max_link_ratio,$verbose,$step,$offset,$fpr,$bfoff,$readlength,$min_size)=("","",4000,15,0.1,5,0.3,0,2,0,0.001,0,0,500);
 my $last_step  = $step; ### default for last_step set as step
 my $version = "[v1.8.6]";
-my $dev = "rwarren\@bcgsc.ca";
+my $dev = "rwarren\@bccrc.ca";
 my $ARCKS_RUN = 0;### MEANS ONLY LINKS PROCESS
 
 #-------------------------------------------------
@@ -222,7 +222,7 @@ eval{
    my $wdir = `pwd`;
    chomp($wdir);
    my $smtp = Net::SMTP->new('mailhost');
-   $smtp->mail("LINKS\@bcgsc.ca");
+   $smtp->mail("LINKS\@bccrc.ca");
    $smtp->to($dev);
    $smtp->data();
    $smtp->datasend("Subject: Your LINKS run\n");
@@ -1381,4 +1381,4 @@ sub buildScaffoldFasta{
    return $scaffold_fasta;
 }
 
-## We hope this code is useful to you -- Please send comments & suggestions to rwarren at bcgsc.ca
+## We hope this code is useful to you -- Please send comments & suggestions to rwarren at bccrc.ca

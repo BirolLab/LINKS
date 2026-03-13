@@ -2,7 +2,7 @@
 
 #AUTHOR
 #   Rene Warren
-#   rwarren at bcgsc.ca
+#   rwarren at bccrc.ca
 
 #NAME
 #testBloom
@@ -12,14 +12,14 @@
 #DOCUMENTATION
 #   LINKS-readme.txt distributed with this software @ www.bcgsc.ca
 #   http://www.bcgsc.ca/platform/bioinfo/software/links
-#   We hope this code is useful to you -- Please send comments & suggestions to rwarren * bcgsc.ca
+#   We hope this code is useful to you -- Please send comments & suggestions to rwarren * bccrc.ca
 #   If you use LINKS, the LINKS code or ideas, please cite our work
 
 #LICENSE
 #   LINKS Copyright (c) 2014-2018 Canada's Michael Smith Genome Science Centre.  All rights reserved.
 
 #LINKS is released under the BC Cancer Agency software license agreement (academic use). Details of the license can be accessed at: http://www.bcgsc.ca/platform/bioinfo/license/bcca_2010
-#For commercial use, please contact rwarren@bcgsc.ca
+#For commercial use, please contact rwarren@bccrc.ca
 
 
 use strict;
