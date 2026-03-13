@@ -222,7 +222,7 @@ eval{
    my $wdir = `pwd`;
    chomp($wdir);
    my $smtp = Net::SMTP->new('mailhost');
-   $smtp->mail("LINKS\@bccrc.ca");
+   $smtp->mail("rwarren\@bccrc.ca");
    $smtp->to($dev);
    $smtp->data();
    $smtp->datasend("Subject: Your LINKS run\n");
