@@ -1,4 +1,4 @@
-[![Release](https://img.shields.io/github/release/birollab/LINKS.svg)](https://github.com/birollab/LINKS/releases)
+[![Release](https://img.shields.io/github/release/birollab/LINKS.svg?dummy=30)](https://github.com/birollab/LINKS/releases)
 [![Downloads](https://img.shields.io/github/downloads/birollab/LINKS/total?logo=github)](https://github.com/birollab/LINKS/releases/download/v2.0.1/links-v2.0.1.tar.gz)
 [![Conda](https://img.shields.io/conda/dn/bioconda/links?label=Conda)](https://anaconda.org/bioconda/LINKS)
 [![Issues](https://img.shields.io/github/issues/birollab/LINKS.svg)](https://github.com/birollab/LINKS/issues)
